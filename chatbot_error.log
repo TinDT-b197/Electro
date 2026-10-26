@@ -1,0 +1,1153 @@
+[04-Dec-2025 17:12:16 Europe/Berlin] OpenAI API Response Code: 429
+[04-Dec-2025 17:12:16 Europe/Berlin] OpenAI API Response: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+[04-Dec-2025 17:12:16 Europe/Berlin] Using fallback response for: Tư vấn laptop
+[04-Dec-2025 17:12:21 Europe/Berlin] OpenAI API Response Code: 429
+[04-Dec-2025 17:12:21 Europe/Berlin] OpenAI API Response: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+[04-Dec-2025 17:12:21 Europe/Berlin] Using fallback response for: Giờ mở cửa
+[04-Dec-2025 17:12:33 Europe/Berlin] OpenAI API Response Code: 429
+[04-Dec-2025 17:12:33 Europe/Berlin] OpenAI API Response: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+[04-Dec-2025 17:12:33 Europe/Berlin] Using fallback response for: tư vấn laptop gaming
+[04-Dec-2025 17:12:42 Europe/Berlin] OpenAI API Response Code: 429
+[04-Dec-2025 17:12:42 Europe/Berlin] OpenAI API Response: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+[04-Dec-2025 17:12:42 Europe/Berlin] Using fallback response for: hello
+[04-Dec-2025 17:13:09 Europe/Berlin] OpenAI API Response Code: 429
+[04-Dec-2025 17:13:09 Europe/Berlin] OpenAI API Response: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+[04-Dec-2025 17:13:09 Europe/Berlin] Using fallback response for: trong các dòng máy, máy nào phù hợp cho sinh viên nhất
+[04-Dec-2025 17:15:44 Europe/Berlin] OpenAI API Response Code: 429
+[04-Dec-2025 17:15:44 Europe/Berlin] OpenAI API Error: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[04-Dec-2025 17:21:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\xampp1\htdocs\electro\chatbot_ai.php:369
+Stack trace:
+#0 C:\xampp1\htdocs\electro\chatbot_ai.php(131): getGeneralResponse('gaming', Array)
+#1 C:\xampp1\htdocs\electro\chatbot_ai.php(39): getSmartAIResponse('gaming', Array, 'S\xE1\xBA\xA3n ph\xE1\xBA\xA9m hi...', Object(mysqli))
+#2 {main}
+  thrown in C:\xampp1\htdocs\electro\chatbot_ai.php on line 369
+[04-Dec-2025 17:21:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\xampp1\htdocs\electro\chatbot_ai.php:369
+Stack trace:
+#0 C:\xampp1\htdocs\electro\chatbot_ai.php(131): getGeneralResponse('gaming', Array)
+#1 C:\xampp1\htdocs\electro\chatbot_ai.php(39): getSmartAIResponse('gaming', Array, 'S\xE1\xBA\xA3n ph\xE1\xBA\xA9m hi...', Object(mysqli))
+#2 {main}
+  thrown in C:\xampp1\htdocs\electro\chatbot_ai.php on line 369
+[04-Dec-2025 17:21:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\xampp1\htdocs\electro\chatbot_ai.php:369
+Stack trace:
+#0 C:\xampp1\htdocs\electro\chatbot_ai.php(131): getGeneralResponse('vl', Array)
+#1 C:\xampp1\htdocs\electro\chatbot_ai.php(39): getSmartAIResponse('vl', Array, 'S\xE1\xBA\xA3n ph\xE1\xBA\xA9m hi...', Object(mysqli))
+#2 {main}
+  thrown in C:\xampp1\htdocs\electro\chatbot_ai.php on line 369
+[04-Dec-2025 17:24:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "OPENAI_API_KEY" in C:\xampp1\htdocs\electro\chatbot_ai.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp1\htdocs\electro\chatbot_ai.php on line 16
+[04-Dec-2025 17:24:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "OPENAI_API_KEY" in C:\xampp1\htdocs\electro\chatbot_ai.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp1\htdocs\electro\chatbot_ai.php on line 16
+[04-Dec-2025 17:29:30 Europe/Berlin] Gemini API Response Code: 404
+[04-Dec-2025 17:29:30 Europe/Berlin] Gemini API Error Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:02:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:02:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:02:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:02:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:02:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:02:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:02:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:02:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:02:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:02:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:02:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:02:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:02:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:02:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:02:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:02:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:02:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:02:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:02:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:02:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:02:34 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:02:34 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:02:34 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:02:34 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:02:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:02:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:02:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:02:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:04:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:04:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:04:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:04:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:04:28 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:04:28 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:04:28 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:04:28 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:04:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:04:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:04:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:04:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:05:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:05:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:05:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:05:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:05:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:05:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:05:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:05:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:05:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:05:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:05:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:05:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:05:26 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:05:26 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:05:26 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:05:26 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:06:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:06:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:06:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:06:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:06:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:06:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:06:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:06:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:06:53 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:06:53 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:06:53 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:06:53 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:06:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:06:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:06:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:06:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:84) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:06:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:06:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:06:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:06:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:07:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:07:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:07:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:07:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:07:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:07:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:07:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:07:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:07:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:07:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:07:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:07:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:07:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:07:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:07:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:07:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:07:22 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:07:22 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:07:22 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:07:22 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:08:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:08:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:08:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:08:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:09:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:09:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:09:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:09:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:10:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:10:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:10:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:10:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:10:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:10:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:10:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:10:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:11:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:11:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:11:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:11:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:11:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:11:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:11:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:11:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:11:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:11:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:11:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:11:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:11:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:11:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:11:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:11:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:11:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:11:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:11:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:11:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:11:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:11:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:11:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:11:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:11:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:11:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:11:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:11:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:11:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:11:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:11:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:11:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:11:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:11:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:11:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:11:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:11:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:11:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:11:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:11:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:12:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:12:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:12:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:12:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:12:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:12:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:12:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:12:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:12:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:12:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:12:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:12:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:12:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:12:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:12:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:12:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\show-wishlist.php:13) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:12:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:12:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:12:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:12:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:12:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:12:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:12:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:12:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:13:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:13:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:13:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:13:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:13:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:13:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:13:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:13:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:13:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:13:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:13:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:13:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:13:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:13:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:13:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:13:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:13:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:13:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:13:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:13:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\cart.php:151) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:14:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:14:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:14:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:14:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:14:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:14:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:14:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:14:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:14:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:14:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:14:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:14:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:14:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:14:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:14:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:14:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:14:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:15:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:15:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:15:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:15:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:15:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:15:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:15:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:15:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:15:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:15:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:15:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:15:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:15:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:15:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:15:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:15:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:15:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:15:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:15:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:15:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:90) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:19:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:19:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:19:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:19:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:20:04 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:20:04 Europe/Berlin] Gemini API Error Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:20:16 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:20:16 Europe/Berlin] Gemini API Error Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:20:21 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:20:21 Europe/Berlin] Gemini API Error Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:20:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:20:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:20:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:20:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:21:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:21:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:21:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:22:45 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:22:45 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:22:45 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:22:45 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:22:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:22:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:22:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:22:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:23:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:23:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:23:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:23:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:23:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:23:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:23:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:23:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:23:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:24:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 598
+[05-Dec-2025 15:24:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 599
+[05-Dec-2025 15:24:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 600
+[05-Dec-2025 15:24:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\electro\partials\header.php:81) in C:\xampp\htdocs\electro\chatbot_widget.php on line 601
+[05-Dec-2025 15:37:38 Europe/Berlin] OpenRouter API Response Code: 401
+[05-Dec-2025 15:37:38 Europe/Berlin] OpenRouter API Error: {"error":{"message":"User not found.","code":401}}
+[05-Dec-2025 15:42:42 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:42:42 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:42:48 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:42:48 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:42:57 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:42:57 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:44:22 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:44:22 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:44:27 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:44:27 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:44:30 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:44:30 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:44:30 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 321
+[05-Dec-2025 15:44:30 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 322
+[05-Dec-2025 15:44:30 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 323
+[05-Dec-2025 15:44:30 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 324
+[05-Dec-2025 15:44:30 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 325
+[05-Dec-2025 15:44:30 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 326
+[05-Dec-2025 15:44:30 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 327
+[05-Dec-2025 15:44:30 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 328
+[05-Dec-2025 15:44:30 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\electro\chatbot_api.php on line 333
+[05-Dec-2025 15:44:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\electro\chatbot_api.php:333
+Stack trace:
+#0 C:\xampp\htdocs\electro\chatbot_api.php(333): mysqli_query(NULL, 'SELECT ID, titl...')
+#1 C:\xampp\htdocs\electro\chatbot_api.php(44): analyzeIntent('t\xC3\xB4i mu\xE1\xBB\x91n mua...')
+#2 {main}
+  thrown in C:\xampp\htdocs\electro\chatbot_api.php on line 333
+[05-Dec-2025 15:47:05 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:47:05 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:47:07 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:47:07 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:47:07 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 321
+[05-Dec-2025 15:47:07 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 322
+[05-Dec-2025 15:47:07 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 323
+[05-Dec-2025 15:47:07 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 324
+[05-Dec-2025 15:47:07 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 325
+[05-Dec-2025 15:47:07 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 326
+[05-Dec-2025 15:47:07 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 327
+[05-Dec-2025 15:47:07 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 328
+[05-Dec-2025 15:47:07 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\electro\chatbot_api.php on line 333
+[05-Dec-2025 15:47:07 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\electro\chatbot_api.php:333
+Stack trace:
+#0 C:\xampp\htdocs\electro\chatbot_api.php(333): mysqli_query(NULL, 'SELECT ID, titl...')
+#1 C:\xampp\htdocs\electro\chatbot_api.php(44): analyzeIntent('T\xC6\xB0 v\xE1\xBA\xA5n m\xC3\xA0n ...')
+#2 {main}
+  thrown in C:\xampp\htdocs\electro\chatbot_api.php on line 333
+[05-Dec-2025 15:47:09 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:47:09 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:47:09 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 321
+[05-Dec-2025 15:47:09 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 322
+[05-Dec-2025 15:47:09 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 323
+[05-Dec-2025 15:47:09 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 324
+[05-Dec-2025 15:47:09 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 325
+[05-Dec-2025 15:47:09 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 326
+[05-Dec-2025 15:47:09 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 327
+[05-Dec-2025 15:47:09 Europe/Berlin] PHP Warning:  Undefined variable $intent in C:\xampp\htdocs\electro\chatbot_api.php on line 328
+[05-Dec-2025 15:47:09 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\electro\chatbot_api.php on line 333
+[05-Dec-2025 15:47:09 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\electro\chatbot_api.php:333
+Stack trace:
+#0 C:\xampp\htdocs\electro\chatbot_api.php(333): mysqli_query(NULL, 'SELECT ID, titl...')
+#1 C:\xampp\htdocs\electro\chatbot_api.php(44): analyzeIntent('T\xC6\xB0 v\xE1\xBA\xA5n lapto...')
+#2 {main}
+  thrown in C:\xampp\htdocs\electro\chatbot_api.php on line 333
+[05-Dec-2025 15:49:52 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:49:52 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:49:57 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:49:57 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:50:00 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:50:00 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:50:03 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:50:03 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:50:06 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:50:06 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:50:08 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:50:08 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:50:16 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:50:16 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:50:22 Europe/Berlin] Gemini API Response Code: 400
+[05-Dec-2025 15:50:22 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[05-Dec-2025 15:53:20 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:53:20 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:53:25 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:53:25 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:53:26 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:53:26 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:53:30 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:53:30 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:53:33 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:53:33 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:53:36 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:53:36 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:53:39 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:53:39 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:56:13 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:56:13 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:59:45 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:59:45 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 15:59:47 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 15:59:47 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:01:56 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:01:56 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:02:17 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:02:17 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:02:18 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:02:18 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:02:19 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:02:19 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:02:52 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:02:52 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:02:58 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:02:58 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:02:59 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:02:59 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:03:16 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:03:16 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:03:22 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:03:22 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:03:23 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:03:23 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:03:29 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:03:29 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 16:05:11 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 16:05:12 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[05-Dec-2025 17:43:06 Europe/Berlin] Gemini API Response Code: 404
+[05-Dec-2025 17:43:06 Europe/Berlin] Gemini API Error: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
